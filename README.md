@@ -23,21 +23,23 @@ JSdoc:
 jsdoc -r src/js -d docs/jsdoc
 ```
 # Estructura de directorios:
-/biblioteca-reservas-libros
-  |-- /src
-  |   |-- /java
-  |   |   |-- Main.java
-  |   |   |-- Libro.java
-  |   |   |-- Reserva.java
-  |   |-- /js
-  |   |   |-- main.js
-  |   |   |-- Libro.js
-  |   |   |-- Reserva.js
-  |   |-- /css
-  |   |   |-- styles.css
-  |-- /docs
-  |   |-- /javadoc
-  |   |-- /jsdoc
-  |-- README.md
-  |-- CHANGELOG.md
 
+```
+/biblioteca-reservas-libros
+|-- /src
+|   |-- /java
+|   |   |-- Main.java
+|   |   |-- Libro.java
+|   |   |-- Reserva.java
+|   |-- /js
+|   |   |-- main.js
+|   |   |-- Libro.js
+|   |   |-- Reserva.js
+|   |-- /css
+|   |   |-- styles.css
+|-- /docs
+|   |-- /javadoc
+|   |-- /jsdoc
+|-- README.md
+|-- CHANGELOG.md
+```
