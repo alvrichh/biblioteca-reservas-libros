@@ -1,0 +1,101 @@
+/*==============================================================
+Proyecto: Actividad de Documentacion CSS
+Autor: Álvaro Rodríguez
+Version: 1.0
+Fecha de creación: 20/09/2023
+
+[Tabla de contenidos]
+
+1. Estilos de la página
+2. Header
+3. Menú de navegación
+4. Estilos de contenido
+5. Footer
+6. Estilos especificos
+
+[Colores]
+    background-color: #333;
+    letras del manú: #ff6600;
+
+==============================================================*/
+
+/* 1. Estilos de la página */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 2. Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* 3. Menú de navegación */
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a.current {
+    font-weight: bold;
+    color: #ff6600;
+}
+
+/* 4. Estilos de contenido */
+.main-content {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-section {
+    margin-top: 20px;
+}
+
+.product-list {
+    list-style: none;
+}
+
+.product-list-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* 5. Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+/* 6. Estilos especificos */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .main-content {
+        font-size: 16px;
+    }
+}
