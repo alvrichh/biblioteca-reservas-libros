@@ -9,17 +9,21 @@ Clona este repositorio usando Git:
 ```bash
 git clone https://github.com/alvrichh/UD01-Actividad-Evaluable01
 ```
+## Enlaces a la documentación generada:
+- [Documentación Java (Javadoc)](./docs/javadoc)
+- [Documentación JavaScript (JSDoc)](./docs/jsdoc)
+
 ## Comandos para Generar Documentación:
-javadoc:
+Javadoc:
 ```bash
 javadoc -d docs/javadoc -sourcepath src/java src/java/*.java
 ```
-jsdoc:
+JSdoc:
 ```bash
 jsdoc -r src/js -d docs/jsdoc
 ```
 # Estructura de directorios:
-  /biblioteca-reservas-libros
+/biblioteca-reservas-libros
   |-- /src
   |   |-- /java
   |   |   |-- Main.java
@@ -36,3 +40,4 @@ jsdoc -r src/js -d docs/jsdoc
   |   |-- /jsdoc
   |-- README.md
   |-- CHANGELOG.md
+
